@@ -1,0 +1,29 @@
+
+ACTIVE_WINDOW = [0xC9, 0xBB, 0xC8, 0xBC, 0xCD, 0xBA];
+
+NOACTIVE_WINDOW = [0xDA, 0xBF, 0xC0, 0xD9, 0xC4, 0xB3];
+
+function drawWindow(back, col, w, h, scale, chars) {
+    setColor(back);
+    fillRect(w * FONT_WIDTH * scale, h * FONT_HEIGHT * scale);
+    setColor(col);
+    drawChar(chars[0]);
+    fillChar(chars[4], w - 2, 1);
+    moveCursor(w - 2, 0);
+    drawChar(chars[1]);
+    moveCursor(- w, 1);
+    fillChar(chars[5], 1, h - 2);
+    moveCursor(0, h - 2);
+    drawChar(chars[2]);
+    fillChar(chars[4], w - 2, 1);
+    moveCursor(w - 2, 0);
+    drawChar(chars[3]);
+    moveCursor(- 1, 2 - h);
+    fillChar(chars[5], 1, h - 2);
+    setColor(0);
+    moveCursor(1, 0);
+    fillChar(0xB0, 1, h);
+    moveCursor(1 - w, h - 1);
+    fillChar(0xB0, w - 1, 1);
+    moveCursor(- 1, - h);
+}

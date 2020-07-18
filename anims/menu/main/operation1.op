@@ -1,0 +1,20 @@
+# Normal menu animation
+
+# size 14x11
+
+setColor 9
+fillRect 224 264
+setColor f
+drawCode C9
+fillCode CD 12 1
+moveCursor 12 0
+drawCode BB
+moveCursor -14 1
+fillCode BA 1 9
+moveCursor 0 9
+drawCode C8
+fillCode CD 12 1
+moveCursor 12 0
+drawCode BC
+moveCursor -1 -9
+fillCode BA 1 9

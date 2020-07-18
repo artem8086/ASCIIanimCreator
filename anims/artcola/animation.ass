@@ -1,0 +1,10 @@
+path = "G:\\java\\Projects\\NewYearRescueComplete\\data\\data\\parts\\cola.ascii";
+
+operations = [
+    (function() {
+        setScale(12);
+        setColor(0xf);
+        setPos(-336, -72);
+        str(0);
+    })
+];

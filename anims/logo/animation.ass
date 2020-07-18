@@ -1,0 +1,26 @@
+path = "G:\\java\\Projects\\NewYearRescueComplete\\data\\data\\logo.ascii";
+
+operations = [
+    (function() {
+        setScale(6);
+        setColor(7);
+        setPos(80, 0);
+        str(0);
+        //
+        setScale(10);
+        setColor(0xC);
+        setPos(0, 32);
+        str(1);
+    }),
+    (function() {
+        setScale(6);
+        setColor(0);
+        setPos(80, 0);
+        str(0);
+        //
+        setScale(10);
+        setColor(0);
+        setPos(0, 32);
+        str(1);
+    })
+];

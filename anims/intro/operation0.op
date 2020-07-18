@@ -1,0 +1,567 @@
+block 8
+    setColor 9
+    fillRect 800 24
+    setPos 0 0
+    setColor f
+    substr 0 0 38
+    
+block 8
+    setPos 0 0
+    setColor 9
+    fillRect 800 48
+    setPos 0 0
+    setColor f
+    str 0
+
+block 8
+    setPos 0 0
+    setColor 9
+    fillRect 800 48
+    setPos 0 48
+    fillRect 112 24
+    setPos 0 0
+    setColor f
+    str 0
+
+block 8
+    setPos 0 0
+    setColor 9
+    fillRect 800 48
+    setPos 0 48
+    fillRect 112 24
+    setPos 0 0
+    setColor f
+    str 0
+    setPos 0 72
+    setColor 7
+    substr 1 0 26
+
+block 8
+    setPos 0 0
+    setColor 9
+    fillRect 800 48
+    setPos 0 48
+    fillRect 112 24
+    setPos 0 0
+    setColor f
+    str 0
+    setPos 0 72
+    setColor 7
+    substr 1 0 51
+
+block 8
+    setPos 0 0
+    setColor 9
+    fillRect 800 48
+    setPos 0 48
+    fillRect 112 24
+    setPos 0 0
+    setColor f
+    str 0
+    setPos 0 72
+    setColor 7
+    substr 1 0 80
+
+block 8
+    setPos 0 0
+    setColor 9
+    fillRect 800 48
+    setPos 0 48
+    fillRect 112 24
+    setPos 0 0
+    setColor f
+    str 0
+    setPos 0 72
+    setColor 7
+    substr 1 0 98
+
+block 8
+    setPos 0 0
+    setColor 9
+    fillRect 800 48
+    setPos 0 48
+    fillRect 112 24
+    setPos 0 0
+    setColor f
+    str 0
+    setPos 0 72
+    setColor 7
+    substr 1 0 118
+
+block 30
+    setPos 0 0
+    setColor 9
+    fillRect 800 48
+    setPos 0 48
+    fillRect 112 24
+    setPos 0 0
+    setColor f
+    str 0
+    setPos 0 72
+    setColor 7
+    str 1
+
+# ArtSoft
+
+setColor f
+setScale 2
+block 10
+    setPos 160 144
+    str 2
+
+block 2
+
+block 4
+    setPos 160 144
+    str 2
+
+block 5
+    setPos 160 144 // A
+    str 2 
+    setPos 320 144 // R
+    str 3
+
+block 2
+    setPos 160 144
+    str 2
+
+block 7
+    setPos 160 144 // A
+    str 2 
+    setPos 320 144 // R
+    str 3
+
+block 8
+    setPos 160 144 // A
+    str 2 
+    setPos 320 144 // R
+    str 3
+    setPos 480 144 // T
+    str 4
+
+block 2
+    setPos 160 144 // A
+    str 2 
+    setPos 320 144 // R
+    str 3
+
+block 30
+    setPos 160 144 // A
+    str 2 
+    setPos 320 144 // R
+    str 3
+    setPos 480 144 // T
+    str 4
+
+block 2
+    setPos 160 132 // A
+    str 2 
+    setPos 320 132 // R
+    str 3
+    setPos 480 132 // T
+    str 4
+
+block 2
+    setPos 160 120 // A
+    str 2 
+    setPos 320 120 // R
+    str 3
+    setPos 480 120 // T
+    str 4
+
+block 2
+    setPos 160 108 // A
+    str 2 
+    setPos 320 108 // R
+    str 3
+    setPos 480 108 // T
+    str 4
+
+block 2
+    setPos 160 96 // A
+    str 2 
+    setPos 320 96 // R
+    str 3
+    setPos 480 96 // T
+    str 4
+
+block 2
+    setPos 160 84 // A
+    str 2 
+    setPos 320 84 // R
+    str 3
+    setPos 480 84 // T
+    str 4
+
+block 2
+    setPos 160 72 // A
+    str 2 
+    setPos 320 72 // R
+    str 3
+    setPos 480 72 // T
+    str 4
+
+block 10
+    setPos 160 60 // A
+    str 2 
+    setPos 320 60 // R
+    str 3
+    setPos 480 60 // T
+    str 4
+
+block 20
+    setPos 160 60 // A
+    str 2 
+    setPos 320 60 // R
+    str 3
+    setPos 480 60 // T
+    str 4
+    
+    setPos 80 276 // S
+    str 5
+    setPos 240 276 // O
+    str 6
+    setPos 400 276 // F
+    str 7
+    setPos 560 276 // T8
+    str 4
+
+block 2
+    setPos 160 60 // A
+    str 2 
+    setPos 320 60 // R
+    str 3
+    setPos 480 60 // T
+    str 4
+
+block 10
+    setPos 160 60 // A
+    str 2 
+    setPos 320 60 // R
+    str 3
+    setPos 480 60 // T
+    str 4
+    
+    setPos 80 276 // S
+    str 5
+    setPos 240 276 // O
+    str 6
+    setPos 400 276 // F
+    str 7
+    setPos 560 276 // T8
+    str 4
+
+block 2
+    setScale 22
+    setPos 160 60 // A
+    drawChar A
+    setScale 2
+    setPos 320 60 // R
+    str 3
+    setPos 480 60 // T
+    str 4
+    
+    setPos 80 276 // S
+    str 5
+    setPos 240 276 // O
+    str 6
+    setPos 400 276 // F
+    str 7
+    setPos 560 276 // T8
+    str 4
+
+block 5
+    setPos 160 60 // A
+    str 2 
+    setPos 320 60 // R
+    str 3
+    setPos 480 60 // T
+    str 4
+    
+    setPos 80 276 // S
+    str 5
+    setPos 240 276 // O
+    str 6
+    setPos 400 276 // F
+    str 7
+    setPos 560 276 // T8
+    str 4
+
+block 2
+    setPos 160 60 // A
+    str 2 
+    setPos 320 60 // R
+    str 3
+    setScale 22
+    setPos 480 60 // T
+    drawChar T
+    setScale 2
+    
+    setPos 80 276 // S
+    str 5
+    setPos 240 276 // O
+    str 6
+    setPos 400 276 // F
+    str 7
+    setPos 560 276 // T8
+    str 4
+
+block 3
+    setPos 160 60 // A
+    str 2 
+    setPos 320 60 // R
+    str 3
+    setPos 480 60 // T
+    str 4
+    
+    setPos 80 276 // S
+    str 5
+    setPos 240 276 // O
+    str 6
+    setPos 400 276 // F
+    str 7
+    setPos 560 276 // T
+    str 4
+
+block 2
+    setPos 160 60 // A
+    str 2 
+    setPos 320 60 // R
+    str 3
+    setPos 480 60 // T
+    str 4
+    
+    setPos 80 276 // S
+    str 5
+    setScale 22
+    setPos 240 276 // O
+    drawChar O
+    setScale 2
+    setPos 400 276 // F
+    str 7
+    setPos 560 276 // T
+    str 4
+
+block 6
+    setPos 160 60 // A
+    str 2 
+    setPos 320 60 // R
+    str 3
+    setPos 480 60 // T
+    str 4
+    
+    setPos 80 276 // S
+    str 5
+    setPos 240 276 // O
+    str 6
+    setPos 400 276 // F
+    str 7
+    setPos 560 276 // T
+    str 4
+
+block 2
+    setPos 160 60 // A
+    str 2 
+    setPos 320 60 // R
+    str 3
+    setPos 480 60 // T
+    str 4
+    
+    setPos 80 276 // S
+    str 5
+    setPos 240 276 // O
+    str 6
+    setPos 400 276 // F
+    str 7
+    setScale 22
+    setPos 560 276 // T
+    drawChar T
+    setScale 2
+
+block 4
+    setPos 160 60 // A
+    str 2 
+    setPos 320 60 // R
+    str 3
+    setPos 480 60 // T
+    str 4
+    
+    setPos 80 276 // S
+    str 5
+    setPos 240 276 // O
+    str 6
+    setPos 400 276 // F
+    str 7
+    setPos 560 276 // T
+    str 4
+
+
+block 2
+    setPos 160 60 // A
+    str 2 
+    setPos 320 60 // R
+    str 3
+    setPos 480 60 // T
+    str 4
+    
+    setScale 22
+    setPos 80 276 // S
+    drawChar S
+    setScale 2
+    setPos 240 276 // O
+    str 6
+    setPos 400 276 // F
+    str 7
+    setPos 560 276 // T
+    str 4
+
+
+block 2
+    setPos 160 60 // A
+    str 2 
+    setPos 320 60 // R
+    str 3
+    setPos 480 60 // T
+    str 4
+    
+    setPos 80 276 // S
+    str 5
+    setPos 240 276 // O
+    str 6
+    setPos 400 276 // F
+    str 7
+    setPos 560 276 // T
+    str 4
+
+
+block 2
+    setPos 160 60 // A
+    str 2 
+    setPos 320 60 // R
+    str 3
+    setPos 480 60 // T
+    str 4
+    
+    setPos 80 276 // S
+    str 5
+    setScale 22
+    setPos 240 276 // O
+    drawChar O
+    setScale 2
+    setPos 400 276 // F
+    str 7
+    setPos 560 276 // T
+    str 4
+
+
+block 3
+    setPos 160 60 // A
+    str 2 
+    setPos 320 60 // R
+    str 3
+    setPos 480 60 // T
+    str 4
+    
+    setPos 80 276 // S
+    str 5
+    setPos 240 276 // O
+    str 6
+    setPos 400 276 // F
+    str 7
+    setPos 560 276 // T
+    str 4
+
+
+block 2
+    setPos 160 60 // A
+    str 2
+    setScale 22
+    setPos 320 60 // R
+    drawChar R
+    setScale 2
+    setPos 480 60 // T
+    str 4
+    
+    setPos 80 276 // S
+    str 5
+    setPos 240 276 // O
+    str 6
+    setPos 400 276 // F
+    str 7
+    setPos 560 276 // T
+    str 4
+
+
+block 4
+    setPos 160 60 // A
+    str 2 
+    setPos 320 60 // R
+    str 3
+    setPos 480 60 // T
+    str 4
+    
+    setPos 80 276 // S
+    str 5
+    setPos 240 276 // O
+    str 6
+    setPos 400 276 // F
+    str 7
+    setPos 560 276 // T
+    str 4
+
+
+block 4
+    setPos 160 60 // A
+    str 2 
+    setPos 320 60 // R
+    str 3
+    setPos 480 60 // T
+    str 4
+    
+    setPos 80 276 // S
+    str 5
+    setPos 240 276 // O
+    str 6
+    setScale 22
+    setPos 400 276 // F
+    drawChar F
+    setScale 2
+    setPos 560 276 // T
+    str 4
+
+
+block 30
+    setPos 160 60 // A
+    str 2 
+    setPos 320 60 // R
+    str 3
+    setPos 480 60 // T
+    str 4
+    
+    setPos 80 276 // S
+    str 5
+    setPos 240 276 // O
+    str 6
+    setPos 400 276 // F
+    str 7
+    setPos 560 276 // T
+    str 4
+
+
+block 5
+    setScale 22
+    setPos 160 60 // A
+    drawChar A
+    setPos 320 60 // R
+    drawChar R
+    setPos 480 60 // T
+    drawChar T
+    
+    setPos 80 276 // S
+    drawChar S
+    setPos 240 276 // O
+    drawChar O
+    setPos 400 276 // F
+    drawChar F
+    setPos 560 276 // T
+    drawChar T

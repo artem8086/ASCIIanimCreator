@@ -1,0 +1,116 @@
+path = "G:\\java\\Projects\\NewYearRescueComplete\\data\\data\\menu\\main.ascii";
+
+import "window.ass";
+
+MENU_WIDTH = 13;
+MENU_HEIGHT = 9;
+MENU_ITEM_NUMBER = 5;
+scale = 2;
+
+function drawAppearingWindow() {
+    for (var i = 0.4; i < 1; i += 0.1) {
+        block(2);
+        setPos(
+            ~~((MENU_WIDTH * (1 - i)) * scale * FONT_WIDTH) / 2,
+            ~~((MENU_HEIGHT * (1 - i)) * scale * FONT_HEIGHT) / 2);
+        drawWindow(0x1, 0xF, ~~(MENU_WIDTH * i), ~~(MENU_HEIGHT * i), 2, ACTIVE_WINDOW);
+    }
+}
+
+function drawDisAppearingWindow() {
+    for (var i = 1; i >= 0.4; i -= 0.1) {
+        block(1);
+        setPos(
+            ~~((MENU_WIDTH * (1 - i)) * scale * FONT_WIDTH) / 2,
+            ~~((MENU_HEIGHT * (1 - i)) * scale * FONT_HEIGHT) / 2);
+        drawWindow(0x1, 0xF, ~~(MENU_WIDTH * i), ~~(MENU_HEIGHT * i), 2, ACTIVE_WINDOW);
+    }
+}
+
+function drawActiveMainMenu() {
+    drawWindow(0x1, 0xF, MENU_WIDTH, MENU_HEIGHT, scale, ACTIVE_WINDOW);
+}
+
+function drawNoActiveMainMenu() {
+    drawWindow(0x9, 0x7, MENU_WIDTH, MENU_HEIGHT, scale, NOACTIVE_WINDOW);
+}
+
+operations = [
+    drawAppearingWindow,
+    drawActiveMainMenu,
+    drawNoActiveMainMenu,
+    drawDisAppearingWindow
+];
+
+function createButtons(func) {
+    var len = sizeof(operations);
+    for (var i = 0; i < MENU_ITEM_NUMBER; i++) {
+        operations[len + i] = func;
+    }
+}
+
+indx1 = 0;
+
+createButtons(function normalButtons() {
+    for (var i = 0; i < MENU_ITEM_NUMBER; i++) {
+        if (i == indx1) {
+            setColor(0xC);
+            setPos(scale * FONT_WIDTH,
+            (2 + i) * scale * FONT_HEIGHT);
+            fillRect((MENU_WIDTH - 2) * scale * FONT_WIDTH, scale * FONT_HEIGHT);
+            setColor(0xF);
+        } else {
+            setColor(0x7);
+        }
+        setPos(2 * scale * FONT_WIDTH,
+            (2 + i) * scale * FONT_HEIGHT);
+
+        str(i);
+    }
+    setPos(0, 0);
+    indx1++;
+});
+
+indx2 = 0;
+
+createButtons(function normalButtons() {
+    for (var i = 0; i < MENU_ITEM_NUMBER; i++) {
+        if (i == indx2) {
+            setColor(0xE);
+            setPos(scale * FONT_WIDTH,
+            (2 + i) * scale * FONT_HEIGHT);
+            fillRect((MENU_WIDTH - 2) * scale * FONT_WIDTH, scale * FONT_HEIGHT);
+            setColor(0);
+        } else {
+            setColor(0x7);
+        }
+        setPos(2 * scale * FONT_WIDTH,
+            (2 + i) * scale * FONT_HEIGHT);
+
+        str(i);
+    }
+    setPos(0, 0);
+    indx2++;
+});
+
+indx3 = 0;
+
+createButtons(function normalButtons() {
+    for (var i = 0; i < MENU_ITEM_NUMBER; i++) {
+        if (i == indx3) {
+            setColor(0x7);
+            setPos(scale * FONT_WIDTH,
+            (2 + i) * scale * FONT_HEIGHT);
+            fillRect((MENU_WIDTH - 2) * scale * FONT_WIDTH, scale * FONT_HEIGHT);
+            setColor(0x8);
+        } else {
+            setColor(0x7);
+        }
+        setPos(2 * scale * FONT_WIDTH,
+            (2 + i) * scale * FONT_HEIGHT);
+
+        str(i);
+    }
+    setPos(0, 0);
+    indx3++;
+});
